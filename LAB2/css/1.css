@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face-book-login {
+    width: 78%;
+}
+
+.h-words {
+    font-weight: normal;
+}
+
+.left-login {
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+
+.left-login h2 {
+    width: 70%;
+    padding-left: 5%;
+}
+
+.right-login {
+    width: 396px;
+    float: right;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+}
+
+.right-login .form {
+    background-color: white;
+    border-radius: 6px;
+}
+
+.right-login div {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+#pas {
+    width: 90%;
+    border-radius: 6px;
+    padding: 13px;
+    font-size: 15px;
+    margin-left: 2%;
+    border-width: 0.5px;
+}
+
+#log {
+    width: 90%;
+    border-radius: 6px;
+    padding: 13px;
+    font-size: 15px;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    border-width: 0.5px;
+}
+
+.right-login input {
+    width: 100%;
+    /*margin: 0 auto;*/
+}
+
+.photo {
+    width: 50%;
+    margin-top: 130px;
+    /*margin-left: 200px;*/
+}
+
+#but {
+    background-color: #1877f2;
+    color: white;
+    padding: 13px;
+    width: 90%;
+    margin-top: 3%;
+    font-family: inherit;
+    margin-left: 2%;
+    border-radius:6px;
+    border-width: 0px;
+}
+#but:hover{
+    background-color:#01579b;
+}
+
+#forgot-pasw {
+    width: 20%;
+    color: #1877f2;
+    font-size: 90%;
+    text-decoration: none;
+    margin-left: 33%;
+}
+
+#forgot-pasw:hover{
+    text-decoration: underline;
+}
+
+.newacc {
+    background-color: #42b72a;
+    color: white;
+    padding: 12px;
+    font-size: 17px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    border-radius:6px;
+    border-width: 0px;
+}
+.newacc:hover{
+    background-color: #33971f;
+}
+
+input:focus{
+    outline: 1px solid #1877f2;
+}
+
+.logtext {
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+a.logtext:link{
+    color: black;
+}
+a.logtext:visited{
+    color: black;
+}
+a.logtext:hover{
+    text-decoration: underline;
+}
+
+hr {
+    width: 90%;
+    margin: 20px 16px
+}
+.rb {
+    text-align:center;
+}
